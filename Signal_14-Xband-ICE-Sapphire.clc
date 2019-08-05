@@ -103,13 +103,13 @@ $begin 'Named_Expression'
 $end 'Named_Expression'
 $begin 'Named_Expression'
 	Name('Ple')
-	Expression('*(Integrate(Volume(Polyflon), Real(Dot(<Ex,Ey,Ez>, Conj(<Ex,Ey,Ez>)))), *(8.85419E-012, *(3.14159, *(ImDieHold, Frq))))')
+	Expression('*(Integrate(Volume(Sapphire), Real(Dot(<Ex,Ey,Ez>, Conj(<Ex,Ey,Ez>)))), *(8.85419E-012, *(3.14159, *(ImDieHold, Frq))))')
 	Fundamental_Quantity('E')
 	Fundamental_Quantity('E')
 	Operation('Conj')
 	Operation('Dot')
 	Operation('Real')
-	EnterVolume('Polyflon')
+	EnterVolume('Sapphire')
 	Operation('VolumeValue')
 	Operation('Integrate')
 	Scalar_Constant(8.85419e-012)

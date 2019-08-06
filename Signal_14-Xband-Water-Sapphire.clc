@@ -1,7 +1,7 @@
 $begin 'Named_Expression'
 	Name('ImDieHold')
-	Expression('0.0001')
-	Scalar_Constant(0.0001)
+	Expression('0.001')
+	Scalar_Constant(0.001)
 $end 'Named_Expression'
 $begin 'Named_Expression'
 	Name('ImDieSam')
